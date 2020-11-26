@@ -21,7 +21,7 @@
                 android:text="un exemple de note"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:padding="4pd"
+                android:padding="4dp"
                 android:layout_marginBottom="16dp"/>
 
             <TextView
