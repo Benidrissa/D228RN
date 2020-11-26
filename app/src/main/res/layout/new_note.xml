@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/newNoteAddBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/newNoteET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouvelle note" />
+
+    <EditText
+        android:id="@+id/newNoteColorET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newNoteET"
+        android:hint="#DDCCCC" />
+
+    <EditText
+        android:id="@+id/newNoteDateET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newNoteColorET"
+        android:hint="01/01/2020" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newNoteDateET"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="8dp"
+        android:text="Ajouter" />
+
+</RelativeLayout>
