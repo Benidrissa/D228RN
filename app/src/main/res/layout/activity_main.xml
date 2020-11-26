@@ -8,8 +8,8 @@
         android:id="@+id/notesText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16"
-        android:layout_marginTop="16"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         android:text="un exemple de note" />
 
     <androidx.recyclerview.widget.RecyclerView
